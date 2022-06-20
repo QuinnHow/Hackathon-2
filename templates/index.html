@@ -3,11 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
     <title>Index</title>
 </head>
 
 <body>
-    <h1>Hello!!</h1>
+    <div class="box">
+        <h1>Embark on an adventure to discover your future career!</h1>
+
+        <button class="btn" onclick="window.location.href='/page0';">
+            Let's GO!
+        </button>
+    </div>
+
+
 </body>
 
 </html>
