@@ -15,22 +15,6 @@ body {
     height: 100vh;
     background-color: rgb(255, 255, 255);
 }
-h2 {
-    border: 2px #eee solid;
-    color: rgb(3, 60, 133);
-    text-align: center;
-    padding: 10px;
-}
-h3{
-    width: 800px;
-    max-width: 100%;
-    max-width: 100%;
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 2px;
-    font-size: 18px;
-}
 
 .container {
     width: 800px;
