@@ -10,9 +10,17 @@ def index():
 def page0():
     return render_template('page0.html')
 
+@app.route("/page0-3")
+def page0x3():
+    return render_template('page0-3.html')
+
 @app.route("/page1")
 def page1():
     return render_template('page1.html')
+
+@app.route("/page1-4")
+def page1x4():
+    return render_template('page1-4.html')
 
 @app.route("/page2")
 def page2():
