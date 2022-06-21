@@ -35,6 +35,8 @@ def page2():
 
 @app.route("/page2-1")
 def page2x1():
+    global gameDesign
+    gameDesign += 1
     return render_template('page2-1.html')
 
 @app.route("/page3")
