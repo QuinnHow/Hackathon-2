@@ -42,6 +42,14 @@ img {
     margin-top: 10%;
 }
 
+.img3 {
+    display: block;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
