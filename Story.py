@@ -1,11 +1,6 @@
 from flask import Flask, render_template
 
 app = Flask(__name__)
-dataSci = 0
-cyberSec = 0
-hcInterac = 0
-gameDev = 0
-webDev = 0
 
 @app.route("/")
 def index():
@@ -15,9 +10,17 @@ def index():
 def page0():
     return render_template('page0.html')
 
+@app.route("/page0-3")
+def page0x3():
+    return render_template('page0-3.html')
+
 @app.route("/page1")
 def page1():
     return render_template('page1.html')
+
+@app.route("/page1-4")
+def page1x4():
+    return render_template('page1-4.html')
 
 @app.route("/page2")
 def page2():
@@ -49,7 +52,7 @@ def page8():
 
 @app.route("/ending1")
 def ending1():
-    return render_template('ending1.html', variable)
+    return render_template('ending1.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
